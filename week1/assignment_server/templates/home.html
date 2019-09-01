@@ -1,0 +1,10 @@
+<!doctype html>
+<title>Dwitter</title>
+<nav>
+  <h1>Dwitter</h1>
+</nav>
+<section class="content">
+  {% for tweet in tweets %}
+    <div class="tweet">{{ tweet }}</div>
+  {% endfor %}
+</section>
