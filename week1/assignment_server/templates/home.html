@@ -1,0 +1,14 @@
+<!doctype html>
+<title>Dwitter</title>
+<nav>
+  <h1>Dwitter</h1>
+</nav>
+<section class="content">
+  {% for tweet in tweets %}
+    <div class="tweet">{{ tweet }}</div>
+  {% endfor %}
+  <a href="{{ url_for('home', page=page+1) }}">Next page</a>
+  {% if page > 1 %}
+    <a href="{{ url_for('home', page=page-1) }}">Previous page</a>
+  {% endif %}
+</section>
