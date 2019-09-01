@@ -15,8 +15,8 @@ def home(page=1):
 
 
 # Returns JSON representation of tweets.
-@app.route('/tweets')
-@app.route('/tweets/<int:page>')
+@app.route('/dweets')
+@app.route('/dweets/<int:page>')
 def tweets(page=1):
      # Paginate the list of tweets and show the newest ones first.
     tweets = get_tweets(page)
