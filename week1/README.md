@@ -64,7 +64,7 @@ For this project, you will be writing most of your code in the Glitch online IDE
 
 ### Preparing your OS
 
-If you’re on Windows 10 Home, we’ll need you to upgrade to Windows 10 Professional/Education to prepare your system for the next project. UVA offers a free download for Windows 10 Education [here](https://virginia.service-now.com/its?id=sc_cat_item&sys_id=bccebb0edbcfa38c2192e6650596190c&sysparm_category=1fe6564cdb65e74ca6ddc191159619f7). The installation instructions are [here](https://virginia.service-now.com/its?id=itsweb_kb_article&sys_id=%20de496c09db0dd7084f32fb671d9619a7).
+If you’re on Windows 10 Home, we’ll need you to upgrade to Windows 10 Professional/Education to prepare your system for the next project. UVA offers a free license for Windows 10 Education [here](https://virginia.service-now.com/its?id=sc_cat_item&sys_id=bccebb0edbcfa38c2192e6650596190c&sysparm_category=1fe6564cdb65e74ca6ddc191159619f7). The installation instructions are [here](https://virginia.service-now.com/its?id=itsweb_kb_article&sys_id=%20de496c09db0dd7084f32fb671d9619a7).
 
 If you’re on Linux or Mac, you don’t need to do anything extra at this time.
 
