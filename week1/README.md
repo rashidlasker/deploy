@@ -69,5 +69,5 @@ If you’re on Windows 10 Home, we’ll need you to upgrade to Windows 10 Profes
 If you’re on Linux or Mac, you don’t need to do anything extra at this time.
 
 ### Brainstorming project ideas
-In the coming weeks, you should start brainstorming ideas to work on for the semester-long multi-part project. You will work on these projects in groups and will end up deploying these projects onto AWS. Try to think of something fun and creative that you can show off to your friends or put on your resume after Deploy ends. The project shouldn’t be particularly complex, but would ideally involve storing some kind of interface and interacting with some external API.
+In the coming weeks, you should start brainstorming ideas to work on for the semester-long multi-part project. You will work on these projects in groups and will end up deploying these projects onto AWS. Try to think of something fun and creative that you can show off to your friends or put on your resume after Deploy ends. The project shouldn’t be particularly complex, but would ideally involve storing some kind of data and/or interacting with some external API.
 
