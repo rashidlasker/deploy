@@ -31,9 +31,14 @@ You can find the project starter code [here](https://glitch.com/~deploy-project1
 
 Flask is a micro-service framework for Python that makes it super simple to set up a web application. The starter code above handles most of the set up for this project, so you’ll primarily be working within the `server.py` file in your Glitch remix. You can read more about Flask in these [docs](https://flask.palletsprojects.com/en/1.1.x/).
 
+- We highly recommend using the Python [requests](https://2.python-requests.org/en/master/) library for making GET and POST requests from Python.
+
 ## Using Twilio
 
 Twilio is a service that lets your programmatically send and receive text messages. The way you use Twilio is by interacting with their public API. The Twilio API abstracts away the whole process of interacting with a cellular service and lets you send SMS messages in under 10 lines of Python code. See the Glitch starter project for an example Twilio usage and see the [Python Quickstart](https://www.twilio.com/docs/sms/quickstart/python) for more example usage. You will need to sign up for a free trial of Twilio before starting this project (don’t worry, there’s no credit card required).
+
+- To access the SMS message body from flask, use the following code in your route handler:
+  - sms_body = request.form['Body']
 
 ## Assignment Server API
 
