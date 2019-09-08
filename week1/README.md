@@ -32,6 +32,7 @@ You can find the project starter code [here](https://glitch.com/~deploy-project1
 Flask is a micro-service framework for Python that makes it super simple to set up a web application. The starter code above handles most of the set up for this project, so you’ll primarily be working within the `server.py` file in your Glitch remix. You can read more about Flask in these [docs](https://flask.palletsprojects.com/en/1.1.x/).
 
 - We highly recommend using the Python [requests](https://2.python-requests.org/en/master/) library for making GET and POST requests from Python.
+- We also recommend the [json](https://docs.python.org/3/library/json.html) library for decoding and encoding JSON responses.
 
 ## Using Twilio
 
