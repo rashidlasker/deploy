@@ -43,6 +43,8 @@ lightweight virtual machine and Linux installation. They manage all of
 this for you so you don't even notice that you're running Linux on
 your Mac or Windows machine.
 
+We highly recommend watching this video [here](https://www.youtube.com/watch?v=YFl2mCHdv24).
+
 ### Django
 
 We'll be using Django for the rest of this course. Django is a service framework that is more structured and resilient than Flask. You can read more
