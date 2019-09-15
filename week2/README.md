@@ -69,6 +69,8 @@ updates etc.
 
 ## Install everything
 
+Note: For Windows users, we recommend using Powershell over Command Prompt so that all commands will behave as expected.
+
 - Install Docker following the instructions:
     - Ubuntu: https://docs.docker.com/installation/ubuntulinux/
     - Mac: https://docs.docker.com/docker-for-mac/
