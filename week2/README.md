@@ -1,5 +1,7 @@
 # Assignment 2: Containerize everything!
 
+Note: This assignment is largely adapted from [CS 4260 - Internet Scale Applications](https://github.com/thomaspinckney3/cs4501/blob/master/README.md).
+
 ## Overview
 
 In this project you will set up a development environment (using
@@ -437,4 +439,5 @@ up your page a bit.
 ### What to turn in
 
 Turn in screenshots of `docker ps` showing your running containers
-along with a screenshot of your "Hello World" output from curl.
+along with a screenshot of your "Hello World" output from curl and a link to your Github repo.
+You can send these to us in a direct slack message, preferably with all three instructors.
