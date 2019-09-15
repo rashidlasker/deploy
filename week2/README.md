@@ -188,7 +188,7 @@ ones you started above when testing your install) named *web* and
 coding and initial testing in these containers. Run `docker rm web` to
 clean up the (stopped) *web* container you started earlier when testing
 your install. Go ahead and stop your *mysql* container with `docker stop
-mysql`.
+mysql`. You can start your *mysql* container again using `docker run --name mysql -d -e MYSQL_ROOT_PASSWORD='$3cureUS' -v ~/deploy-project/db:/var/lib/mysql  mysql:latest`.
 
 Docker provides a simple way for containers to talk to each other via
 private networks. When you start a container you can tell Docker to
