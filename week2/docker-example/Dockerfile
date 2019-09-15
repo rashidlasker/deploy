@@ -1,3 +1,6 @@
+# See https://docs.docker.com/get-started/part2/ for a quick
+# introduction to getting up and running with Docker.
+
 # Use an official Python runtime as a parent image
 FROM python:3.7-slim
 
