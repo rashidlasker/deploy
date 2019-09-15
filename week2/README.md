@@ -2,6 +2,8 @@
 
 Note: This assignment is largely adapted from [CS 4260 - Internet Scale Applications](https://github.com/thomaspinckney3/cs4501/blob/master/README.md).
 
+- [Week 2 Slides](https://docs.google.com/presentation/d/1Zm-S310neb1JPt3uaiJvfTwD6MIFmKWwNLYFSyRBYCk/edit?usp=sharing)
+
 ## Overview
 
 In this project you will set up a development environment (using
