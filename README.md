@@ -16,7 +16,7 @@ Course schedule and other resources can be found [here](https://docs.google.com/
 ## Course Policies and Information
 
 ### Attendance
-Since we only have 10 workshops over the course of this semester, 2 workshop or 3 check-in absences will result in termination from the course.
+Since we only have 10 workshops over the course of this semester, 2 workshop or 3 check-in absences will result in termination from the course, per the instructor's discretion.
 
 ### Misc Office hours
 Rashid will be holding office hours at Olsson 001 on Tuesdays and Thursday from 2 to 3pm.
