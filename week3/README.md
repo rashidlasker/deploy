@@ -163,7 +163,7 @@ Django includes a feature called database migrations. This is a way for you to a
 in sync with what your models.py requires. If your models.py refers to a model named 'Cars' but your database doesn't have a
 table for that model, then your application won't work.
 
-The way migreations work is that when you change your models.py, you ALWAYS need to also check-in a migration that will make
+The way migrations work is that when you change your models.py, you ALWAYS need to also check-in a migration that will make
 the corresponding change to you (and your teammates DB's). You do this with the `python manage.py makemigrations` command.
 This will create a Python file in your `migrations/` directory that will, when run, update your DB. 
 
