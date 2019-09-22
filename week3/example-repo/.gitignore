@@ -109,9 +109,3 @@ venv.bak/
 
 # idea
 .idea
-
-# rebu
-app/web/static
-app/microservices/static
-node_modules
-
