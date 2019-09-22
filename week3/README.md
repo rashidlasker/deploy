@@ -23,22 +23,26 @@ completing this work.
 
 A note on code layout: it should look something like this. This is the same directory structure you get when when you use the standard Django `startproject`, `startapp` commands.
 
-
-	myproject/
-	├── manage.py
-	├── myapp
-	│   ├── __init__.py
-	│   ├── admin.py
-	│   ├── migrations
-	│   │   └── __init__.py
-	│   ├── models.py
-	│   ├── tests.py
-	│   └── views.py
-	└── myproject
-	    ├── __init__.py
-	    ├── settings.py
-	    ├── urls.py
-	    └── wsgi.py
+    .gitignore
+    docker-compose.yml
+    init.sql
+    db/
+    app/
+    └── myproject/
+        ├── manage.py
+        ├── myapp
+        │   ├── __init__.py
+        │   ├── admin.py
+        │   ├── migrations
+        │   │   └── __init__.py
+        │   ├── models.py
+        │   ├── tests.py
+        │   └── views.py
+        └── myproject
+            ├── __init__.py
+            ├── settings.py
+            ├── urls.py
+            └── wsgi.py
 
 
 It's probably worth your effort to set up the admin interface to make
