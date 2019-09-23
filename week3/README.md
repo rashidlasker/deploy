@@ -136,7 +136,7 @@ You can do a lot more with Docker Compose, including building new images straigh
 Models
 ------
 
-The first step is to create your Django models for your project. Generally, there are a few guidelines to consider:
+The first step is to create your Django models for your project. The Django docs will be very useful for this part: https://docs.djangoproject.com/en/2.2/topics/db/models/. Generally, there are a few guidelines to consider:
 
 Remember, each model corresponds to a table in your database. Each
 model is represented in Django by a Python class. Each row in your
@@ -269,7 +269,7 @@ General steps for creating fixtures:
 
 Dump existing db data to db.json (JSON file name does not matter) using
 
-	python manage.py dumpdata > db.json
+	python manage.py dumpdata --natural-foreign --natural-primary -e contenttypes -e auth.Permission --indent 4 > db.json
 
 See Django documentation for the various options for dumpdata: https://docs.djangoproject.com/en/2.1/ref/django-admin/#dumpdata
 
@@ -321,7 +321,7 @@ This should go without saying: make sure everyone in the group can flush their
 database and load a fixture. Sometimes, you'll have issues with contenttypes and
 permissions creating conflicts. Look into the flags you can use to exclude these
 from making it into the fixtures JSON. Ensure that everyone in your group can load
-data because that's a good sign that the TA's will be able to as well.
+data because that's a good sign that the PL's will be able to as well.
 
 What to turn in
 ---------------
