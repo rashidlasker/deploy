@@ -1,6 +1,8 @@
 Assignment 3: Django Models + API
 ========
 
+[Week 3 slides](https://docs.google.com/presentation/d/1ygVaPp9hndBUrwXOamymqmExpULMkb5Ndj3JKZdqW-Q/edit?usp=sharing)
+
 In this phase of the project you will build your Django data models
 and then build a first version of services for accessing those
 models.
