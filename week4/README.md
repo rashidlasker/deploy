@@ -1,9 +1,9 @@
-Assignment 3: Templates, Templates, Templates! (oh, and Forms!)
+Assignment 3: Templates, Templates, Templates!
 ========
 
-This week you'll be writing templates and forms for the models you created last week. You have free reign in deciding which templates and forms your app requires. We are looking for functionality where users can see a list of items and be able to click on an item and see details about it.
+This week you'll be writing templates for the models you created last week. You have free reign in deciding which templates your app requires. We are looking for functionality where users can see a list of items and be able to click on an item and see details about it.
 
-For example, if your project is a recipe sharing app and you have `User`, `Recipe`, and `Comment` models, you could create detail views and templates for `User` and `Recipe`. `Comment` might not need its own view/template because the view for `Recipe` could also show all associated `Comment`s. You would also need to create a view and corresponding template that lists `Recipe`s. It would also make sense for your app to have forms that allow for creation of `Recipe`s and `Comment`s.
+For example, if your project is a recipe sharing app and you have `User`, `Recipe`, and `Comment` models, you could create detail views and templates for `User` and `Recipe`. `Comment` might not need its own view/template because the view for `Recipe` could also show all associated `Comment`s. You would also need to create a view and corresponding template that lists `Recipe`s.
 
 Templates in Django
 ----
