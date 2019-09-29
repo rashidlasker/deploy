@@ -35,6 +35,9 @@ def detail(request, question_id):
 </ul>
 ```
 
+For more guidance on writing Django apps, we highly recommend going through this tutorial:
+https://docs.djangoproject.com/en/2.2/intro/tutorial01/
+
 What to turn in
 ---------------
 
