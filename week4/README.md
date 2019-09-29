@@ -1,5 +1,7 @@
-Assignment 3: Templates, Templates, Templates!
+Assignment 4: Templates, Templates, Templates!
 ========
+
+[Week 4 slides](https://docs.google.com/presentation/d/1Efu_LrY5iAj3lx2RTLuzVlTVdg2ieBifu-odGrE9r4Q/edit?usp=sharing)
 
 This week you'll be writing templates for the models you created last week. You have free reign in deciding which templates your app requires. We are looking for functionality where users can see a list of items and be able to click on an item and see details about it.
 
