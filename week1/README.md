@@ -1,5 +1,7 @@
 # Assignment 1: Setting up a simple Flask web server API
 
+[Week 1 slides](https://docs.google.com/presentation/d/17UGq5hCUIt5l5_P6Ofohq7B7pvEDlqoVnDYCz0uDE5I/edit?usp=sharing)
+
 ## Goals
 
 - Learn how HTTP requests work
