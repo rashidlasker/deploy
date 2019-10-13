@@ -1,0 +1,22 @@
+language: python
+services:
+- docker
+env:
+- DOCKER_COMPOSE_VERSION=1.22.0
+before_install:
+- sudo rm /usr/local/bin/docker-compose
+- curl -L https://github.com/docker/compose/releases/download/${DOCKER_COMPOSE_VERSION}/docker-compose-`uname
+  -s`-`uname -m` > docker-compose
+- chmod +x docker-compose
+- sudo mv docker-compose /usr/local/bin
+install:
+- mkdir ~/build/rashidlasker/rebu/db"
+before_script:
+- docker-compose up -d
+- sleep 30
+- docker ps -a
+script:
+- curl localhost:8000/ -f
+- docker exec -it models bash -c "python manage.py test"
+after_script:
+- docker-compose down
