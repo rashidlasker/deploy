@@ -115,7 +115,9 @@ It's simple. Running `python manage.py test <app_directory>` in the appropriate 
 
 Continuous Integration using TravisCI
 ----
+Continuous integration is a dev ops practice widely used within the industry. It involves automated tests and scripts that run before you check-in code to maximize code quality and health. This allows developers to detect errors quickly and before they are introduced into the shared codebase.
 
+The CI platform that we will be using is TravisCI, because of its integrations with GitHub. Here are the Getting Started docs: [https://docs.travis-ci.com/user/tutorial/](https://docs.travis-ci.com/user/tutorial/). We have also included a sample `.travis.yml` file to help you get started. 
 
 
 What to turn in
