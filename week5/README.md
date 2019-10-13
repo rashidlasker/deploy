@@ -121,8 +121,6 @@ Continuous Integration using TravisCI
 What to turn in
 ---------------
 
-The only thing we should need to do to test your project is clone your repository, git check out the appropriate commit/release, make a db folder, and run `docker-compose up`. We should not have to debug issues, change your code etc.
+For this project, we expect you to write 5 unit tests and make TravisCI a part of your GitHub repository workflow. Please submit screenshots of your TravisCI dashboard showing a completed build after you get everything working.
 
-For this project, we just expect your project to have a home listing page of your items that we can click into and view item details. Please send us a link to your Git repo and tell us the URLs to visit to see your templates.
-
-Finally, we strongly encourage you to take time to demo in the office hours or check-ins. We want to make sure not only you are writing code that works but also code that is of best practices.
+Finally, we strongly encourage you to take time to demo in the office hours or in lab. We want to make sure not only you are writing code that works but also code that is of best practices.
