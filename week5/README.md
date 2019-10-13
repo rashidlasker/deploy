@@ -14,6 +14,8 @@ In your Django app directory (the same directory that contains `models.py` and `
 
 In `tests.py`, you will write 5 unit tests that will test the correctness of your application. Unit tests are small tests that each verify whether or not a small part of your app is behaving correctly. Ideally, a unit is the smallest testable part of any software, but units are sometimes hard to identify. In general, it is a good idea to test each endpoint of your application. Your tests should verify that each endpoint behaves as expected.
 
+To run the tests, Django creates a test database called `test_deploy`. You will need to grant Django user access to this database by adding `grant all on test_deploy.* to 'www'@'%';`to your `init.sql` file.
+
 ```python
 from django.test import TestCase, Client
 from django.urls import reverse
