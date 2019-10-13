@@ -12,7 +12,7 @@ Unit testing in Django
 
 In your Django app directory (the same directory that contains `models.py` and `views.py`), create a `tests.py` file.
 
-In `tests.py`, you will write 5 unit tests that will test the correctness of your application. Unit tests are small tests that each test a small facet of your app. Ideally, a unit is the smallest testable part of any software, but units are sometimes hard to identify. In general, it is a good idea to test each endpoint of your application. Your tests should verify that each endpoint is behaving as expected.
+In `tests.py`, you will write 5 unit tests that will test the correctness of your application. Unit tests are small tests that each verify whether or not a small part of your app is behaving correctly. Ideally, a unit is the smallest testable part of any software, but units are sometimes hard to identify. In general, it is a good idea to test each endpoint of your application. Your tests should verify that each endpoint behaves as expected.
 
 ```python
 from django.test import TestCase, Client
