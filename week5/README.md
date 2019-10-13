@@ -128,3 +128,5 @@ What to turn in
 For this project, we expect you to write 5 unit tests and make TravisCI a part of your GitHub repository workflow. Please submit screenshots of your TravisCI dashboard showing a completed build after you get everything working.
 
 Finally, we strongly encourage you to take time to demo in the office hours or in lab. We want to make sure not only you are writing code that works but also code that is of best practices.
+
+Sign up for a *mandatory* lab slot [here](https://docs.google.com/spreadsheets/d/1vb1KS5Q0Rd_UE0AbtWnPzjn1iLx6vhwDEuPLy_rFGeQ/edit#gid=0).
