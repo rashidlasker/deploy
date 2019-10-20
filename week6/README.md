@@ -87,6 +87,8 @@ You can find the public DNS name of your instance by clicking on (upper left) Se
 5. Add your instance's public DNS address to the `ALLOWED_HOSTS` list in your app's `settings.py`.
 
     e.g. `ALLOWED_HOSTS = ['ec2-12-345-67-89.us-east-2.compute.amazonaws.com']`
+    
+    You can set `ALLOWED_HOSTS = ['*']` to allow all hosts.
 
 5. `cd` into your project directory and run `docker-compose up`.
 
