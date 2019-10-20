@@ -68,6 +68,8 @@ You can find the public DNS name of your instance by clicking on (upper left) Se
 
 ### Run your docker containers
 
+Since we're using Amazon Linux 2 AMI, we'll have to install Docker and Git ourselves. In real life, we'd probably use either ECS to straight up deploy containers or use EC2 with a custom AMI that has Docker and Git preinstalled. We'll use Amazon Linux 2 for simplicity.
+
 1. Install git.
 
     `sudo yum install git`
