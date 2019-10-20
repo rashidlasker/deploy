@@ -8,7 +8,7 @@ This week you'll be learning how to setup an AWS account, spin up an EC2 instanc
 Setting up your AWS Account
 ----
 
-### Aws Educate
+### AWS Educate
 First, register for [AWS Educate](https://aws.amazon.com/education/awseducate/). This will give you $100 in free AWS credits. If you are inelligible for AWS Educate, don't worry! We'll be using `t2.micro` instances which cost $0.0116 per hour. You can start and stop these instances as you please, and even if you left your instance running for 3 months straight, you'd only have to pay `90 * 24 * 0.0116 = $25.06`.
 
 ### Set up billing alerts
