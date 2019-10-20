@@ -93,7 +93,7 @@ Since we're using Amazon Linux 2 AMI, we'll have to install Docker and Git ourse
     
     You can set `ALLOWED_HOSTS = ['*']` to allow all hosts.
 
-5. `cd` into your project directory and run `docker-compose up`.
+5. `cd` into your project directory and run `docker-compose up -d` to run your app in the background so that it doesn't stop when you exit your `ssh` connection.
 
 6. Navigate to your app at `http://example-instance.amazonaws.com:8000` and verify that it is working.
 
