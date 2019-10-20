@@ -32,6 +32,9 @@ Deploying your app on EC2
 
 You can find the public DNS name of your instance by clicking on (upper left) Services → Compute → EC2, then click on the "Instances" link in the left sidebar. Select your instance and look for the "Public DNS (IPv4)" address.
 ### Install and setup Docker
+
+Since we're using Amazon Linux 2 AMI, we'll have to install Docker and Git ourselves. In real life, we'd probably use either ECS to straight up deploy containers or use EC2 with a custom AMI that has Docker and Git preinstalled. We'll use Amazon Linux 2 for simplicity.
+
 1. Update your installed packages and package cache.
 
     `sudo yum update -y`
@@ -67,8 +70,6 @@ You can find the public DNS name of your instance by clicking on (upper left) Se
 5. Hit Save.
 
 ### Run your docker containers
-
-Since we're using Amazon Linux 2 AMI, we'll have to install Docker and Git ourselves. In real life, we'd probably use either ECS to straight up deploy containers or use EC2 with a custom AMI that has Docker and Git preinstalled. We'll use Amazon Linux 2 for simplicity.
 
 1. Install git.
 
