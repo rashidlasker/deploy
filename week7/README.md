@@ -7,7 +7,9 @@ This week you'll be implementing a simple Django endpoint to capture analytics i
 
 Django View
 -----
-You'll need to write a simple Django view that will take in a POST request containing user information and then log it to a file on your machine. You will also need to edit `urls.py` to make this view accessible as an API endpoint.
+You'll need to write a simple Django view that will take in a POST request containing user information and then log it to a file on your machine. You will also need to edit `urls.py` to make this view accessible as an API endpoint. What information you choose to log is up to you, but our provided JavaScript code gives you location, webpage path, platform, and user agent. You might also be able to collect a user's IP address by following the advice given [here](https://stackoverflow.com/questions/4581789/how-do-i-get-user-ip-address-in-django). 
+
+We recommend appending values in CSV (comma separated values) format to a text file.
 
 Template Inheritance + Client-side Requests
 -----
