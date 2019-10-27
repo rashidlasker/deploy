@@ -1,0 +1,23 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Add CSS Stylesheets here. -->
+    <!-- <link rel="stylesheet" href="style.css" /> -->
+    <title>Deploy{% block title %}{% endblock %}</title>
+</head>
+
+<body>
+    {% block content %}{% endblock %}
+</body>
+
+<script>
+    console.log("Doing creepy tracking stuff here.")
+    console.log(window.location.pathname)
+    console.log(window.navigator.language)
+    console.log(window.navigator.platform)
+    console.log(window.navigator.userAgent)
+</script>
+
+</html>

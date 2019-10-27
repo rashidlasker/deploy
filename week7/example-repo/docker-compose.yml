@@ -1,0 +1,33 @@
+version: '3.7'
+services:
+  mysql:
+    image: mysql:8.0.17
+    networks:
+      backend:
+        aliases:
+          - db
+    volumes:
+      - ./init.sql:/data/application/init.sql
+      - ./db:/var/lib/mysql
+    command: --init-file /data/application/init.sql
+    environment:
+      - MYSQL_ROOT_PASSWORD=$$3cureUS
+      - MYSQL_DATABASE=db
+
+  web:
+    image: tp33/django
+    networks:
+      backend:
+        aliases:
+          - web
+    depends_on:
+      - mysql
+    volumes:
+      - ./app:/app
+    ports:
+      - '8000:8000'
+    command: bash -c "mod_wsgi-express start-server --working-directory /app/deploy_project --reload-on-changes /app/deploy_project/deploy_project/wsgi.py"
+
+networks:
+  backend:
+    driver: bridge
