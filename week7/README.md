@@ -13,46 +13,9 @@ We recommend appending values in CSV (comma separated values) format to a text f
 
 Template Inheritance + Client-side Requests
 -----
-Template inheritance is a useful feature of Django that allows you to write a set of code once and then apply it to all your web pages. Here, we will write a wrapper that calls the logging endpoint on every page. The example repo includes code under `deploy_app/templates` that shows how it works. The script below shows you how to extract information from a user's client-side browser and then call the logging endpoint.
+Template inheritance is a useful feature of Django that allows you to write a set of code once and then apply it to all your web pages. Here, we will write a wrapper that calls the logging endpoint on every page. The example repo includes code under `deploy_app/templates` that shows how it works. The starter code below shows you how to extract information from a user's client-side browser and then call the logging endpoint.
 
-```HTML
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>Deploy | {% block title %}{% endblock %}</title>
-  </head>
-  ​
-  <body>
-    {% block content %}{% endblock %}
-  </body>
-  ​
-  <script>
-    console.log('Doing creepy tracking stuff here.');
-​
-    const { pathname } = window.location;
-    const { language, platform, userAgent } = window.navigator;
-    const data = { pathname, language, platform, userAgent, location };
-​
-    window.navigator.geolocation.getCurrentPosition(location => {
-      data.location = {
-        latitude: location.coords.latitude,
-        longitude: location.coords.longitude,
-      };
-    });
-    
-    console.log(data);
-​
-    fetch('/ping', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json'
-      },
-      body: JSON.stringify(data)
-    });
-  </script>
-</html>
-```
-
+[`base.html`](https://github.com/rashidlasker/deploy/blob/master/week7/example-repo/app/deploy_project/deploy_app/templates/base.html)
 
 What to turn in
 ---------------
