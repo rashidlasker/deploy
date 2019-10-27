@@ -13,7 +13,7 @@
 
     const { pathname } = window.location;
     const { language, platform, userAgent } = window.navigator;
-    const data = { pathname, language, platform, userAgent, location };
+    const data = { pathname, language, platform, userAgent };
 
     window.navigator.geolocation.getCurrentPosition(location => {
       data.location = {
