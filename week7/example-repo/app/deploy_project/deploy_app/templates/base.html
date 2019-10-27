@@ -16,23 +16,30 @@
     const data = { pathname, language, platform, userAgent };
 
     window.navigator.geolocation.getCurrentPosition(location => {
+      // If we were able to successfully get location data
       data.location = {
         latitude: location.coords.latitude,
         longitude: location.coords.longitude,
       };
+      sendToAPI();
+    }, () => {
+      // If there was an error (likely location access denied)
+      sendToAPI();
     });
-    
-    console.log(data);
 
-    // You can use a fetch function like this as a starting point
-    // though we encourage you to look at fetch documentation!
-    // https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch
-    fetch('/recordUser', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json'
-      },
-      body: JSON.stringify(data)
-    });
+    const sendToAPI = () => {
+      console.log(data);
+
+      fetch('/recordUser', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(data)
+      })
+        .then(res => res.text())
+        .then(console.log);
+    };
+    
   </script>
 </html>
