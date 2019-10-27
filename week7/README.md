@@ -1,0 +1,60 @@
+Assignment 7:  Analytics
+========
+
+[Week 7 slides](https://docs.google.com/presentation/d/1O3mh5e6nY46rENSuxEYg6mqi7bDv2ZasN_BTrMxfYeA/edit?usp=sharing)
+
+This week you'll be implementing a simple Django endpoint to capture analytics information from your users. This endpoint will log user information and output them to an external log file. You'll also learn about template inheritance and performing client-side requests.
+
+Django View
+-----
+You'll need to write a simple Django view that will take in a POST request containing user information and then log it to a file on your machine. You will also need to edit `urls.py` to make this view accessible as an API endpoint.
+
+Template Inheritance + Client-side Requests
+-----
+Template inheritance is a useful feature of Django that allows you to write a set of code once and then apply it to all your web pages. Here, we will write a wrapper that calls the logging endpoint on every page. The example repo includes code under `deploy_app/templates` that shows how it works. The script below shows you how to extract information from a user's client-side browser and then call the logging endpoint.
+
+```HTML
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Deploy | {% block title %}{% endblock %}</title>
+  </head>
+  ​
+  <body>
+    {% block content %}{% endblock %}
+  </body>
+  ​
+  <script>
+    console.log('Doing creepy tracking stuff here.');
+​
+    const { pathname } = window.location;
+    const { language, platform, userAgent } = window.navigator;
+    const data = { pathname, language, platform, userAgent, location };
+​
+    window.navigator.geolocation.getCurrentPosition(location => {
+      data.location = {
+        latitude: location.coords.latitude,
+        longitude: location.coords.longitude,
+      };
+    });
+    
+    console.log(data);
+​
+    fetch('/ping', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify(data)
+    });
+  </script>
+</html>
+```
+
+
+What to turn in
+---------------
+
+Send us a link to your GitHub repo after you implement the client-side requests and logging endpoint. Next week we'll go into sending requests to Lambda!
+
+We strongly encourage you to take time to demo in the office hours or in lab. We want to make sure not only you are writing code that works but also code that is of best practices.
