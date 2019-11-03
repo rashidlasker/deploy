@@ -46,7 +46,7 @@ def lambda_handler(event, context):
     client = boto3.resource('dynamodb')
     # Connect to our DynamoDB table. IMPORTANT: make sure this table name is
     # the correct one for your DynamoDB table.
-    table = client.Table("analytics")
+    table = client.Table("DeployHits")
     try:
         method = event['httpMethod']
 
