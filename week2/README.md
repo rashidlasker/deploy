@@ -436,10 +436,6 @@ to your `urls.py` that points to a view that you create in a new file
 named `home.py`. You can return whatever you want, but whatever it is
 should be rendered in an html file using the `render` keyword.
 
-Later on in the course we're going to be using the Bootstrap CSS
-library. If you want to get fancy, you can include this CSS to pretty
-up your page a bit.
-
 ### What to turn in
 
 Turn in screenshots of `docker ps` showing your running containers
