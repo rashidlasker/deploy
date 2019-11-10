@@ -32,4 +32,4 @@ After each group presents, we'll all help choose one group to present during the
 ## Extra credit: Analyze an existing open-source system.
 - Find an open source project that you're interested and dive into the code to try and see how it works.
 - [The Architecture of Open Source Applications](http://aosabook.org/en/index.html) has many different open source projects and
-detailed explanations of how they work if you are curious.
+detailed explanations of how they work if you need inspiration.
