@@ -1,6 +1,8 @@
 Week 9
 -----
 
+[Slides](https://docs.google.com/presentation/d/1tbDbue7GGuRMZlKMoFH1KJL3bHs1NqIoKMiE5F8ZVV8/edit?usp=sharing)
+
 ## Project Presentations
 Next week, we'll be presenting our projects! This is a low-stakes, low-pressure presentation.
 The main goal is to just show off your projects to the rest of the class and determine who will represent Deploy
