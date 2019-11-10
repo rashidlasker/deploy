@@ -7,7 +7,7 @@ The main goal is to just show off your projects to the rest of the class and det
 in the HackCville project showcase.
 
 ### What we're looking for:
-- 5 minute presentation about your project
+- 5-8 minute presentation about your project
 - Talk about the goal/mission of your web app and why you're building it
   - e.g. Modernize freight records because the current shipping industry still uses fax machines and filing cabinets
   - e.g. build GrubHub for dog food because dogs get hungry too (and their's a large market in doting pet owners)
