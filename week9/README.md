@@ -26,6 +26,8 @@ in the HackCville project showcase.
   - Workload assumptions (e.g. read-heavy, write-heavy?)
   - How does your system design reflect the scope and assumptions that you chose?
   - How would you deploy this on AWS?
+
+After each group presents, we'll all help choose one group to present during the HackCville project showcase.
   
 ## Extra credit: Analyze an existing open-source system.
 - Find an open source project that you're interested and dive into the code to try and see how it works.
