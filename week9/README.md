@@ -37,3 +37,8 @@ in the HackCville project showcase.
 - Find an open source project that you're interested and dive into the code to try and see how it works.
 - [The Architecture of Open Source Applications](http://aosabook.org/en/index.html) has many different open source
 projects and detailed explanations of how they work if you need inspiration.
+
+## More system design resources
+- [Designing Data Intensive Applications](https://dataintensive.net/)
+- [System Design Primer](https://github.com/donnemartin/system-design-primer)
+- [Software Engineering Blogs](https://github.com/kilimchoi/engineering-blogs)
