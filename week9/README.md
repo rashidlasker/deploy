@@ -22,8 +22,12 @@ in the HackCville project showcase.
     - These should look similar to the diagrams we've drawn in class
     - See [the system design primer](https://github.com/donnemartin/system-design-primer#system-design-interview-questions-with-solutions)
     for more examples.
-  - Scoping (what features do you plan to support?)
-  - Workload assumptions (e.g. read-heavy, write-heavy?)
+  - Discuss scoping
+    - What features do you plan to support?
+  - Discuss your workload assumptions
+    - Is it read-heavy? Write-heavy? Both?
+    - Do you face unique challenges?
+      - e.g. blob storage, video streaming, job scheduling?
   - How does your system design reflect the scope and assumptions that you chose?
   - How would you deploy this on AWS?
 
