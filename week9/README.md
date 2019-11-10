@@ -10,8 +10,8 @@ in the HackCville project showcase.
 - 5 minute presentation about your project
 - Talk about the goal/mission of your web app and why you're building it
   - e.g. Modernize freight records because the current shipping industry still uses fax machines and filing cabinets
-  - or build GrubHub for dog food because dogs get hungry too (and their's a large market in doting pet owners)
-- Optional. Give a brief live-demo of your project
+  - e.g. build GrubHub for dog food because dogs get hungry too (and their's a large market in doting pet owners)
+- Optional: Give a brief live-demo of your project
 - Talk about the technical challenges you ran into
   - What tech did you use?
   - What's the most interesting feature you've built so far?
@@ -31,5 +31,5 @@ After each group presents, we'll all help choose one group to present during the
   
 ## Extra credit: Analyze an existing open-source system.
 - Find an open source project that you're interested and dive into the code to try and see how it works.
-- [The Architecture of Open Source Applications](http://aosabook.org/en/index.html) has many different open source projects and
-detailed explanations of how they work if you need inspiration.
+- [The Architecture of Open Source Applications](http://aosabook.org/en/index.html) has many different open source
+projects and detailed explanations of how they work if you need inspiration.
