@@ -20,3 +20,6 @@ Since we only have 10 workshops over the course of this semester, 2 workshop or 
 
 ### Misc Office hours
 Rashid will be holding office hours at Olsson 001 on Tuesdays and Thursday from 2 to 3pm.
+
+
+## [Closing slides](https://drive.google.com/open?id=1okfODkKo_ruH0fAoMxQyDbrN5bgUfZdor2xPRTkIq9U)
